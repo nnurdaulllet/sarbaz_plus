@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72907bad-a4af-481b-8f0d-dcb87af55816" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sarbaz_plus/registration/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sarbaz_plus/registration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarbaz_plus/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/sarbaz_plus/registration/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarbaz_plus/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarbaz_plus/registration/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarbaz_plus/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarbaz_plus/registration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarbaz_plus/sarbaz_plus/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarbaz_plus/sarbaz_plus/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarbaz_plus/sarbaz_plus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarbaz_plus/sarbaz_plus/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/projects/sarbaz"
   }
 }]]></component>
   <component name="SharedIndexes">
