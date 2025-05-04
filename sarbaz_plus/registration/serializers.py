@@ -93,6 +93,7 @@ class PersonGetSerializer(UserSerializer):
 
 
 class LoginSerializer(serializers.Serializer):
+
     iin = serializers.CharField()
     password = serializers.CharField(write_only=True)
 
@@ -119,8 +120,13 @@ class LoginSerializer(serializers.Serializer):
                 'email': user.email,
                 'first_name': user.first_name,
                 'last_name': user.last_name,
+                'middle_name': user.middle_name,
+                'phone_number': user.phone_number,
+                'address': user.address,
+                'date_of_birthday': user.date_of_birthday
             }
         }
+
 
 
 

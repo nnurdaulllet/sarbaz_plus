@@ -24,6 +24,6 @@ urlpatterns = [
 
     path('login/', LoginView.as_view(), name='custom-login'),
     path('register/', RegisterView.as_view(), name="custom-register"),
-    path('send_code/', SendVerificationCodeView.as_view(), name='send-verification-code'),
+    path('send_code/', SendVerificationCodeView.as_view(), name='send-verification-code')
 ]
 

@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8buy-du)^j9u%yyv6if7c!p2s7#5_i6(*f-zp7ue5sbmicf(f6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.100.137']
+ALLOWED_HOSTS = ['192.168.100.137', "api-sarbaz.choices.kz", "92.47.209.18"]
 
 
 # Application definition
@@ -165,4 +165,7 @@ DJOSER = {
 }
 
 
-CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOWED_ORIGINS = [
+    "https://sarbaz.choices.kz",
+]
