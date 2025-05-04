@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.urls import path, include
+from .views import CreateApplicationView
 
-from sarbaz_plus.sarbaz_plus.urls import urlpatterns
 
 urlpatterns = [
-    path('application/create/', )
+    path('create/', CreateApplicationView.as_view(), name='create-application')
 ]
